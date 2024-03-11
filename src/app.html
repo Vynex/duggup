@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en" class="antialiased text-[12px] md:text-[14px] lg:text-[16px]">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="%sveltekit.assets%/favicon.svg" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+		<link
+			rel="preload" as="style"
+			href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
+		/>
+
+		<title>Duggup | a no-nonsense social network</title>
+		<meta name="description" content="Front-end Assignment for Duggup" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		%sveltekit.head%
+	</head>
+
+	<body data-sveltekit-preload-data="hover" class="font-sans flex flex-col items-center px-4 lg:px-[7.31rem]">
+		<div style="display: contents">%sveltekit.body%</div>
+	</body>
+
+	<style>
+		* {
+			margin: 0; padding: 0;
+			box-sizing: border-box;
+		}
+	</style>
+</html>
+
