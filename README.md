@@ -3,6 +3,8 @@
 Front-end assignment for Duggup - a no non-sense social media.
 Developed in SvelteKit. Components from shadcn/ui.
 
+[Live on Vercel](https://duggup-vynex.vercel.app/users/krishna-kiran)
+
 ---
 
 ![Lighthouse](github/lighthouse.png)
@@ -16,7 +18,7 @@ Developed in SvelteKit. Components from shadcn/ui.
 ### 💡 Running Locally
 
 ```bash
-$ git clone git@github.com:Vynex/Duggup.git
+$ git clone git@github.com:Vynex/duggup.git
 
 $ cd duggup
 $ npm install
